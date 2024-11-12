@@ -8,6 +8,16 @@ REPORT ygcb_006_05.
 
 TABLES: sflight.
 
+" Relatório
+" OK - Colocar os Filtros na Tela de Seleção
+" OK - Selecionar Dados do Banco
+" OK - Montar os Dados
+" OK - Exibição dos Dados
+
+" Voos                        - SFLIGH
+" Horarios dos Voos           - SPFLI
+" Marcação de vôo individual  - SBOOK
+
 SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME TITLE TEXT-001.
   PARAMETERS: p_carrid TYPE s_carr_id OBLIGATORY.
   SELECT-OPTIONS: s_connid FOR sflight-connid,
